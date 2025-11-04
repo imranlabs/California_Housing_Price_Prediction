@@ -74,7 +74,7 @@ Ensure you have Python 3.9 or higher installed.
 ```bash
 # Clone the repository
 git clone https://github.com/imranlabs/California_Housing_Price_Prediction.git
-cd California-Housing-Prediction
+cd California_Housing_Price_Prediction
 ```
 
 ### Setup Environment
