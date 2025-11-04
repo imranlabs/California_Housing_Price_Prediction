@@ -65,8 +65,8 @@ The iterative process led to a significant **$28.6\%$ reduction in prediction er
 ## Repository Structure
 
 ```
-.
-├── California_housing_price.ipynb  # Main analysis, training, and evaluation notebook
+
+├── California_housing_price.ipynb          # Main analysis, training, and evaluation notebook
 ├── README.md                               # This file
 ├── cali_housing_best_xgb_model.joblib      # [Future] Saved final XGBoost model (joblib)
 └── requirements.txt                        # List of project dependencies
