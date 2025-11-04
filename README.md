@@ -33,7 +33,7 @@ The project followed a three-phase optimization strategy, progressing from basel
   * **K-Means Clustering:** Recognizing the high importance of `Latitude` and `Longitude`, **K-Means Clustering** was applied to the coordinates to group the state into **15 distinct geographic clusters**. This new categorical feature was used to capture non-linear, regional price effects, leading to the final performance gain.
   * **PyTorch Benchmark:** A **Multi-Layer Perceptron (MLP)** was implemented in **PyTorch** to benchmark the optimal classical ML results against a modern deep learning architecture, demonstrating proficiency in both frameworks.
 
-## 🚀 Final Performance Metrics
+## Final Performance Metrics
 
 The iterative process led to a significant **$28.6\%$ reduction in prediction error (RMSE)** compared to the initial Decision Tree model.
 
@@ -46,7 +46,7 @@ The iterative process led to a significant **$28.6\%$ reduction in prediction er
 
 > **Final Conclusion:** The optimized **XGBoost Regressor** with K-Means clustering achieved an $R^2$ score of **$0.8567$**, making it the top model for this task.
 
-## 🛠 Technical Stack
+## Technical Stack
 
   * **Primary Language:** Python 3.9+
   * **Core Libraries:** `pandas`, `numpy`, `matplotlib`, `scikit-learn`
@@ -55,7 +55,7 @@ The iterative process led to a significant **$28.6\%$ reduction in prediction er
   * **Utilities:** `joblib` (for model persistence)
   * **Deployment Potential:** Designed for integration with **Gradio/Hugging Face Spaces**.
 
-## 💻 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -65,7 +65,7 @@ The iterative process led to a significant **$28.6\%$ reduction in prediction er
 └── requirements.txt                        # List of project dependencies
 ```
 
-## 🏃 How to Run Locally
+##  How to Run Locally
 
 ### Prerequisites
 
@@ -100,6 +100,6 @@ Open the Jupyter Notebook and run all cells sequentially to reproduce the entire
 jupyter notebook California_housing_data_project.ipynb
 ```
 
-## 🌐 Live Demo and Deployment
+## Live Demo and Deployment
 
 This project's final XGBoost model is ready for deployment. The next planned enhancement is a simple **Gradio** application demonstrating the model's predictions in real-time based on user input (Median Income, Latitude, Longitude, etc.).
