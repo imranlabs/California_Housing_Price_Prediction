@@ -2,13 +2,19 @@
 
 # California Housing Price Prediction: A Comparative ML Workflow
 
-[](https://www.python.org/)
+![Python](https://img.shields.io/badge/Python-3.7%2B-green)
 [](https://opensource.org/licenses/MIT)
 [](https://www.google.com/search?q=link-to-huggingface-or-nbviewer)
 
 ## Project Overview
 
 This project implements a rigorous, end-to-end machine learning pipeline to predict median house values in California census block groups using the popular scikit-learn California Housing dataset. The primary goal was to demonstrate an iterative, disciplined approach to model optimization, culminating in a high-performance **XGBoost Regressor** benchmarked against a **PyTorch Deep Learning** model.
+
+<!-- Open in Colab for your main notebook -->
+  <a href="https://colab.research.google.com/github/imranlabs/California_Housing_Price_Prediction/blob/main/California_housing_price.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+  </a>
+</p>
 
 **Data Sourece:** scikit-learn
 
